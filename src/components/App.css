@@ -36,6 +36,8 @@ nav a.nav-link{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
+    padding: 0 !important;
+    
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
