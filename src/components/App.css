@@ -36,9 +36,16 @@ nav a.nav-link{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
+    max-width: 17.25rem;
+    padding: 0 !important;
+    
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+    border-top: 0.1875rem solid rgb(184, 119, 67);
+}
+
+.navbar-nav > li > a:hover {
     border-top: 0.1875rem solid rgb(184, 119, 67);
 }
 
@@ -51,4 +58,18 @@ nav a.nav-link{
     background-position: center;
     height: 140vh;
 
+}
+
+.main-info{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
