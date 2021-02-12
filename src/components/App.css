@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300');
+
+
+:root{
+    --primary-white: #fff;
+    --primary-orange: #f9ab00;
+    --primary-lightred: #fce1e0;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-color: var(--primary-white);
+   }
+   
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+   }
+
+nav a.nav-link{
+    font-weight: 100;
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+.navbar-nav > li > a {
+    color: var(--primary-white);
+}
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+    border-top: 0.1875rem solid rgb(184, 119, 67);
+}
+
+/**********HEADER***************/
+
+.header-wrapper {
+    position: relative;
+    background: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 140vh;
+
+}

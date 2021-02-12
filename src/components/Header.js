@@ -1,8 +1,12 @@
+import './App.css'
+
 const Header = (props) => {
     return (
-        <header>
-            <h1 style={{color: 'red'}}>{props.title}</h1>
-        </header>
+        <div className="header-wrapper">
+            <div className="main-info">
+                <h1>HotelHome</h1>
+            </div>
+        </div>
     )
 }
 
