@@ -5,6 +5,7 @@
     --primary-white: #fff;
     --primary-orange: #f9ab00;
     --primary-lightred: #fce1e0;
+    --primary-home: rgb(172, 135, 80);
 }
 
 body {
@@ -18,47 +19,80 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
    }
 
-nav a.nav-link{
+/****************NAVBAR*******************/
+
+.Link {
+  color: black !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Link:hover {
+  text-decoration: none !important;
+}
+
+
+nav a.nav-link {
+    padding-top: 0;
+    border-top: 0cm;
     font-weight: 100;
     letter-spacing: 0.0375rem;
-    cursor: pointer;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
     text-transform: uppercase;
 }
 
 
 .navbar-nav > li > a {
-    color: var(--primary-white);
+    color: black;
 }
 
 .navbar-brand{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-<<<<<<< HEAD
-=======
-    max-width: 17.25rem;
->>>>>>> cdf312dd0dfe7575851289d1d9fc16ad7de837e0
     padding: 0 !important;
-    
+    cursor: pointer;
+
 }
 
+
+
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-    border-top: 0.1875rem solid rgb(184, 119, 67);
+    border-bottom: 0.1875rem solid var(--primary-lightred);
 }
 
 .navbar-nav > li > a:hover {
-    border-top: 0.1875rem solid rgb(184, 119, 67);
+    border-bottom: 0.1875rem solid var(--primary-home);
+    text-decoration: none !important;
+    
 }
+
 
 /**********HEADER***************/
 
-.header-wrapper {
-    position: relative;
-    background: url('bg.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 140vh;
+.jumbotron{
+  background-image: url(bed.jpeg)!important;
+  background-position: center;
+  background-size: cover;
+  
+}
 
+/*****************CONT*****************/
+
+.productcolor{
+  background-color: #eeeeee;
+}
+.caro{
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/**********FOOTER************/
+.container-fluid {
+  overflow: hidden;
+  margin-top: 250px;
+  background: #262626b9;
+  color: #242424 !important;
+  margin-bottom: 0;
+  padding-bottom: 0
 }

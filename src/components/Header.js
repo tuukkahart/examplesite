@@ -1,17 +1,19 @@
 import './App.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const Header = (props) => {
     return (
-        <div className="header-wrapper">
-            <div className="main-info">
-<<<<<<< HEAD
-                
-=======
-                    <h1>hotelhome</h1>
-                    
->>>>>>> cdf312dd0dfe7575851289d1d9fc16ad7de837e0
+        
+        <div>
+            <div class="jumbotron min-vh-100 text-center d-flex flex-column justify-content-center" id="header">
+                <h1 class="display-4">Feels like hotel</h1>
+                <h1 class="display-5">Feels like home</h1>
+                    <a class="btn btn-white btn-lg" href="#" role="button">Shop</a>
             </div>
+            
         </div>
+        
         
     )
 }
