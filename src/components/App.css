@@ -36,11 +36,19 @@ nav a.nav-link{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
+<<<<<<< HEAD
+=======
+    max-width: 17.25rem;
+>>>>>>> cdf312dd0dfe7575851289d1d9fc16ad7de837e0
     padding: 0 !important;
     
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+    border-top: 0.1875rem solid rgb(184, 119, 67);
+}
+
+.navbar-nav > li > a:hover {
     border-top: 0.1875rem solid rgb(184, 119, 67);
 }
 
