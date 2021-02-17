@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import AOS from "aos/dist/aos";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import Container from "./components/Container";
+import Cont from "./components/Cont";
 import Footer from "./components/Footer"; 
 
 AOS.init();
@@ -14,12 +14,13 @@ AOS.init();
 
 function App() {
   return (
-    <>
-      <Navbar /> 
+    
+    <div className='container'>
+      <Navbar />
       <Header />
-      <Container />
+      <Cont />
       <Footer />
-    </>
+    </div>
   );
 }
 

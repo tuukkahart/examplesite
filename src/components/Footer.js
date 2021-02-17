@@ -35,7 +35,7 @@ export class Footer extends PureComponent {
                                         <h6><b>TUUKKA HARTIKANEN</b></h6><small> <span><i className="fa fa-envelope" aria-hidden="true"></i></span> hartikainentuukka@gmail.com</small>
                                     </div>
                                     <div className="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
-                                        <h6><b>PLAADE HARTIKAINEN</b></h6><small><span><i className="fa fa-envelope" aria-hidden="true"></i></span> martin.hotelhome.no</small>
+                                        <h6><b>ESIMERKKI ERKKI</b></h6><small><span><i className="fa fa-envelope" aria-hidden="true"></i></span> martin.hotelhome.no</small>
                                     </div>
                                 </div>
                             </div>
