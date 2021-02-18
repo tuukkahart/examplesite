@@ -18,7 +18,7 @@ function Carousel() {
                             <div className="row align-items-center">
                                 <div className="col-lg-8 order-lg-2">
                                     <div className="p-5">
-                                        <img className="img-fluid rounded-square" src="/images/products.jpeg" alt=""></img>
+                                        <img className="img-fluid rounded-square" src="images/products.jpeg" alt=""></img>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 order-lg-1">
@@ -33,7 +33,7 @@ function Carousel() {
                             <div className="row align-items-center">
                                 <div className="col-lg-8 order-lg-2">
                                     <div className="p-5">
-                                        <img className="img-fluid rounded-square" src="/images/sohva1.jpeg" alt=""></img>
+                                        <img className="img-fluid rounded-square" src="images/sohva1.jpeg" alt=""></img>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 order-lg-1">
@@ -49,7 +49,7 @@ function Carousel() {
                             <div className="row align-items-center">
                                 <div className="col-lg-8 order-lg-2">
                                     <div className="p-5">
-                                        <img className="img-fluid rounded-square" src="/images/project1.jpeg"></img>
+                                        <img className="img-fluid rounded-square" src="images/project1.jpeg"></img>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 order-lg-1">

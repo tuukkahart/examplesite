@@ -40,7 +40,7 @@ function cont(){
                             <div className="row align-items-center justify-content-center">
                                 <div className="col-lg-5 order-lg-2">
                                     <div className="p-5">
-                                        <img className="img-fluid" src="/images/tj.jpeg" alt=""></img>
+                                        <img className="img-fluid" src="images/tj.jpeg" alt=""></img>
                                     </div>
                                 </div>
                                 <div className="col-lg-7 order-lg-1">
