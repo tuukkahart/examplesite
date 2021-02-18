@@ -3,15 +3,28 @@ import React, { PureComponent } from 'react'
 export class Footer extends PureComponent {
     render() {
         return (
-            <div className="container">
-                
-                <section className="mb-4  min-vh-100 align-items-center justify-content-center" id='contact'>
+            <div className="container min-vh-100">
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+                <p>
+
+                </p>
+                <p>
+                    
+                </p>
+                <section className="mb-4 d-flex flex-column h-100 align-items-center justify-content-center" id='contact'>
 
                 
                     <h2 className="h1-responsive font-weight-bold text-center my-4 justify-content-center">Contact us</h2>
                     
-                    <p className="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-                        a matter of hours to help you.</p>
+                    <p className="text-center w-responsive mx-auto mb-5">Can we help you? Please do not hesitate to contact us directly.</p>
 
                     <div className="row">
 
@@ -73,15 +86,16 @@ export class Footer extends PureComponent {
                         <div className="col-md-3 text-center">
                             <ul className="list-unstyled mb-0">
                                 <li><i className="fas fa-map-marker-alt fa-2x"></i>
-                                    <p>Helsinki, Päivölänrinne 9c 33</p>
+                                    <p>Stoperigaten 7</p>
+                                    <p>3040 Drammen, Norway</p>
                                 </li>
 
                                 <li><i className="fas fa-phone mt-4 fa-2x"></i>
-                                    <p>+ 01 234 567 89</p>
+                                    <p>(+47) 948 47 654</p>
                                 </li>
 
                                 <li><i className="fas fa-envelope mt-4 fa-2x"></i>
-                                    <p>contact@hotelhome.com</p>
+                                    <p>martin@hotelhome.com</p>
                                 </li>
                             </ul>
                         </div>

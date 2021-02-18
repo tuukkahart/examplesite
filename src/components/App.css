@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 
 :root{
-    --primary-white: #fff;
+    --primary-white: rgb(255, 255, 255);
     --primary-orange: #f9ab00;
     --primary-lightred: #fce1e0;
     --primary-home: rgb(172, 135, 80);
 }
 
 body {
-    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--primary-white);
+    font-size: large;
    }
    
 h1, h2, h3, h4, h5, h6 {
@@ -35,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 nav a.nav-link {
     padding-top: 0;
     border-top: 0cm;
-    font-weight: 100;
+    font-weight: 200;
     letter-spacing: 0.0375rem;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -57,14 +59,20 @@ nav a.nav-link {
 
 
 
-.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-    border-bottom: 0.1875rem solid var(--primary-lightred);
+.navbar-nav > li > a.active, .navbar-nav > li > a.active.focus {
+    border-bottom: 0.1875rem solid var(--primary-home) !important;
 }
 
 .navbar-nav > li > a:hover {
     border-bottom: 0.1875rem solid var(--primary-home);
     text-decoration: none !important;
     
+}
+
+.lang {
+  font-size: small;
+  font-family: 'Lora', sans-serif;
+  text-transform: lowercase !important;
 }
 
 
@@ -83,14 +91,46 @@ nav a.nav-link {
   background-color: #eeeeee;
 }
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  display: block;
-  height: 400px;
-  min-width: 100%;
-  width: 100%;
-  max-width: 100%;
-  line-height: 1;
+.carousel-item {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
 }
+.caro1 {
+  background-image: url(Hotelind.jpeg);
+}
+.caro2 {
+  background-image: url(turnkey.jpeg);
+}
+.caro3 {
+  background-image: url(project1.jpeg);
+}
+.carousel-item h1 {
+  margin: 0;
+  color: white;
+}
+.mask{
+  background-color: rgba(0, 0, 0, 0.322);
+}
+
+.mask1bg{
+  
+  background-image: url(seepia.jpg);
+}
+
+
+
+.mask1{
+  background-color: rgba(0, 0, 0, 0.486);
+}
+.mask2{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.card{
+  width: 18rem;
+}
+
 
 /**********FOOTER***********/
 .container-fluid {

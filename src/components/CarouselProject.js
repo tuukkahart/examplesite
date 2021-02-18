@@ -23,7 +23,7 @@ function Carousel() {
                                     </div>
                                     <div className="col-lg-5 order-lg-1">
                                         <div className="p-5">
-                                            <h2 className="display-4">Scandic Gardemoen, Norway</h2>
+                                            <h3 className="display-4">Scandic Gardemoen, Norway</h3>
                                             <p>Scandic hotell in close of Norway’s central airport Gardemoen. HotelHome implemented NNNNAAAA for this hotel</p>
                                         </div>
                                     </div>
@@ -33,12 +33,12 @@ function Carousel() {
                             <div className="row align-items-center">
                                 <div className="col-lg-7 order-lg-2">
                                     <div className="p-5">
-                                        <img className="img rounded-square" src="images/arena.jpeg" alt=""></img>
+                                        <img className="img rounded-square" src="" alt=""></img>
                                     </div>
                                 </div>
                                 <div className="col-lg-5 order-lg-1">
                                     <div className="p-5">
-                                        <h2 className="display-4">Malmö Arena hotel, Sweden</h2>
+                                        <h3 className="display-4">Malmö Arena hotel, Sweden</h3>
                                         <p>Malmö Arena Hotel is a family-owned colourful hotel, offering facilities for events and business, which has 395 rooms at affordable prices. </p>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@ function Carousel() {
                                     </div>
                                     <div className="col-lg-5 order-lg-1">
                                         <div className="p-5">
-                                            <h2 className="display-4">Aparthotel Varvstaden Malmö, Sweden</h2>
+                                            <h3 className="display-4">Aparthotel Varvstaden Malmö, Sweden</h3>
                                             <p>0Forenom Aparthotel Malmö Varvsstaden is a brand-new aparthotel situated in a renovated property that was originally built in 1912. The property was formerly used as headquarters by Kockums, a shipyard company that was established in Malmö in 1820 and one of the largest employers in the city for a long time.</p>
                                         </div>
                                     </div>

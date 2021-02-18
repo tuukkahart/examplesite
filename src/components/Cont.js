@@ -3,6 +3,9 @@ import Carousel from './Carousel'
 import CarouselProject from './CarouselProject'
 import CarouselBusiness from './CarouselBusiness'
 import Slider from './Slider'
+import Slider2 from './Slider2'
+import Caronew from './Caronew'
+import Caroref from './Caroref'
 
 
 
@@ -14,24 +17,23 @@ function cont(){
                     
                     <div data-aos="fade-right" id="business">
                         <div>
-                            <CarouselBusiness />
+                            <Slider2 />
                         </div>
                     </div>
 
                     
-                    <div className="productcolor" data-aos="fade-right" id="products">
+                    <div data-aos="fade-right" id="products">
                         
-                        <div className="container">
-                            <Carousel />
+                        <div>
+                            <Caronew />
                         </div>
                         
                     </div>
                     
                     
-                    <div className="productcolor" data-aos="fade-right" id="projects">
-                        <div className="container">
-                            
-                            <CarouselProject />
+                    <div data-aos="fade-right" id="projects">
+                        <div>
+                            <Caroref />
                         </div>
                     </div>
                     <div className="container min-vh-100 d-flex flex-column justify-content-center" data-aos="fade-right" id="about1">

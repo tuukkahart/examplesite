@@ -31,6 +31,17 @@ const Navbar = () => {
             <li className="nav-item">
                 <a className="nav-link"><Link className="Link" to="contact" spy={true} smooth={true}>Contact</Link></a>
             </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle lang" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                lang
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">EN</a>
+                <a class="dropdown-item" href="#">SV</a>
+                <a class="dropdown-item" href="#">FI</a>
+                <a class="dropdown-item" href="#">NO</a>
+                </div>
+            </li>
             
             </ul>
         </div>

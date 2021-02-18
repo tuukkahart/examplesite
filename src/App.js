@@ -8,6 +8,9 @@ import Navbar from "./components/Navbar";
 import Cont from "./components/Cont";
 import Footer from "./components/Footer";
 import Slider from './components/Slider'
+import Slider2 from "./components/Slider2";
+import Card from "./components/Card";
+import Caronew from "./components/Caronew";
 
 AOS.init();
 
@@ -19,8 +22,8 @@ function App() {
     <div>
       <Navbar />
       <Header />
-      <Cont /> 
-      <Footer />    
+      <Cont />
+      <Footer />  
     </div>
   );
 }
