@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/app/static/css/main.e55fab94.chunk.css",
+    "main.js": "/app/static/js/main.c12fd1a6.chunk.js",
+    "main.js.map": "/app/static/js/main.c12fd1a6.chunk.js.map",
+    "runtime-main.js": "/app/static/js/runtime-main.13afef92.js",
+    "runtime-main.js.map": "/app/static/js/runtime-main.13afef92.js.map",
+    "static/css/2.9e48475f.chunk.css": "/app/static/css/2.9e48475f.chunk.css",
+    "static/js/2.7af364ed.chunk.js": "/app/static/js/2.7af364ed.chunk.js",
+    "static/js/2.7af364ed.chunk.js.map": "/app/static/js/2.7af364ed.chunk.js.map",
+    "index.html": "/app/index.html",
+    "static/css/2.9e48475f.chunk.css.map": "/app/static/css/2.9e48475f.chunk.css.map",
+    "static/css/main.e55fab94.chunk.css.map": "/app/static/css/main.e55fab94.chunk.css.map",
+    "static/js/2.7af364ed.chunk.js.LICENSE.txt": "/app/static/js/2.7af364ed.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/app/static/media/bed.05d20744.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13afef92.js",
+    "static/css/2.9e48475f.chunk.css",
+    "static/js/2.7af364ed.chunk.js",
+    "static/css/main.e55fab94.chunk.css",
+    "static/js/main.c12fd1a6.chunk.js"
+  ]
+}
