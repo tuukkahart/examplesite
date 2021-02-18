@@ -52,7 +52,7 @@ function cont(){
                                           <p>Jump aboard, the journey has begun.</p>
 
                                           <p>Take contact,</p>
-                                          <p>Martin Calrsson, CEO</p>
+                                          <p>Martin Carlsson, CEO</p>
                                     
                                     </div>
                                 </div>

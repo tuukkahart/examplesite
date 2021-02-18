@@ -116,6 +116,8 @@ nav a.nav-link {
 .mask1bg{
   
   background-image: url(seepia.jpg);
+  background-position: center;
+  background-size:cover;
 }
 
 
