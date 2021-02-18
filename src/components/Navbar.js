@@ -6,7 +6,7 @@ import "bootstrap/dist/js/bootstrap"
 const Navbar = () => {
     return (
         <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand"><Link className="Link" to="header" spy={true} smooth={true}><img src="/images/hotelhome.png" width="140" height="87"></img></Link></a>
+        <a className="navbar-brand"><Link className="Link" to="header" spy={true} smooth={true}><img src="/images/hotelhome.png" width="140" height="85"></img></Link></a>
         
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

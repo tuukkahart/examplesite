@@ -23,8 +23,8 @@ function Carousel() {
                                 </div>
                                 <div className="col-lg-4 order-lg-1">
                                     <div className="p-5">
-                                        <h2 className="display-4">Sängyt</h2>
-                                        <p>Sängyt ovat mukavia</p>
+                                        <h2 className="display-4">Bed</h2>
+                                        <p>Sleeping experience is the most important thing.</p>
                                     </div>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@ function Carousel() {
                                 </div>
                                 <div className="col-lg-4 order-lg-1">
                                     <div className="p-5">
-                                        <h2 className="display-4">Sohvat</h2>
+                                        <h2 className="display-4">Sofa and armchair</h2>
                                         <p>Sohvat myös</p>
                                     </div>
                                 </div>
@@ -54,8 +54,8 @@ function Carousel() {
                                 </div>
                                 <div className="col-lg-4 order-lg-1">
                                     <div className="p-5">
-                                        <h2 className="display-4">Projects</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiamLorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste ess exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste ess</p>
+                                        <h2 className="display-4">Hardwood furniture</h2>
+                                        <p>Tables, chairs etc... </p>
                                     </div>
                                 </div>
                             </div>

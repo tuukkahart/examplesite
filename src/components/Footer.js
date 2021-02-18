@@ -3,46 +3,93 @@ import React, { PureComponent } from 'react'
 export class Footer extends PureComponent {
     render() {
         return (
-            <div>
-                <div class="container-fluid pb-0 mb-0 justify-content-center text-light  min-vh-100" data-aos="fade-left" id="contact">
-                    <footer>
-                        <div className="row my-5 justify-content-center py-5">
-                            <div className="col-11">
-                                <div className="row ">
-                                    <div className="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
-                                        <h3>HotelHome</h3>
+            <div className="container">
+                
+                <section className="mb-4  min-vh-100 align-items-center justify-content-center" id='contact'>
+
+                
+                    <h2 className="h1-responsive font-weight-bold text-center my-4 justify-content-center">Contact us</h2>
+                    
+                    <p className="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                        a matter of hours to help you.</p>
+
+                    <div className="row">
+
+                    
+                        <div className="col-md-9 mb-md-0 mb-5">
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                            
+                                <div className="row">
+
+                                    
+                                    <div className="col-md-6">
+                                        <div className="md-form mb-0">
+                                            <input type="text" id="name" name="name" className="form-control"></input>
+                                            <label for="name" className="">Your name</label>
+                                        </div>
                                     </div>
-                                    <div className="col-xl-2 col-md-4 col-sm-4 col-12">
-                                        <h6 className="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
-                                        <ul className="list-unstyled">
-                                            <li>Products</li>
-                                            <li>About</li>
-                                            <li>Projects</li>
-                                            <li>Contact</li>
-                                        </ul>
+                                
+                                    <div className="col-md-6">
+                                        <div className="md-form mb-0">
+                                            <input type="text" id="email" name="email" className="form-control"></input>
+                                            <label for="email" className="">Your email</label>
+                                        </div>
                                     </div>
-                                    <div className="col-xl-2 col-md-4 col-sm-4 col-12">
-                                        <h6><b>ADDRESS</b></h6>
-                                        <p className="mb-1">Støperigaten 7</p>
-                                        <p>3040 Drammen</p>
+                                
+
+                                </div>
+                            
+                                <div className="row">
+                                    <div className="col-md-12">
+                                        <div className="md-form mb-0">
+                                            <input type="text" id="subject" name="subject" className="form-control"></input>
+                                            <label for="subject" className="">Subject</label>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="row ">
-                                    <div className="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
-                                        <p className="social text-muted mb-0 pb-0 bold-text"> <span className="mx-2"><i className="fa fa-facebook" aria-hidden="true"></i></span> <span className="mx-2"><i className="fa fa-linkedin-square" aria-hidden="true"></i></span> <span className="mx-2"><i className="fa fa-twitter" aria-hidden="true"></i></span> <span className="mx-2"><i className="fa fa-instagram" aria-hidden="true"></i></span> </p><small className="rights">2021 <span>&#174;</span> Copyright All Rights Reserved.</small>
-                                    </div>
-                                    <div className="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
-                                        <h6><b>TUUKKA HARTIKANEN</b></h6><small> <span><i className="fa fa-envelope" aria-hidden="true"></i></span> hartikainentuukka@gmail.com</small>
-                                    </div>
-                                    <div className="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
-                                        <h6><b>ESIMERKKI ERKKI</b></h6><small><span><i className="fa fa-envelope" aria-hidden="true"></i></span> martin.hotelhome.no</small>
+                            
+                                <div className="row">
+
+                                
+                                    <div className="col-md-12">
+
+                                        <div className="md-form">
+                                            <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea"></textarea>
+                                            <label for="message">Your message</label>
+                                        </div>
+
                                     </div>
                                 </div>
+                            
+
+                            </form>
+
+                            <div className="text-center text-md-left">
+                                <a className="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
                             </div>
+                            <div className="status"></div>
                         </div>
-                    </footer>
-                </div>    
-            
+                        <div className="col-md-3 text-center">
+                            <ul className="list-unstyled mb-0">
+                                <li><i className="fas fa-map-marker-alt fa-2x"></i>
+                                    <p>Helsinki, Päivölänrinne 9c 33</p>
+                                </li>
+
+                                <li><i className="fas fa-phone mt-4 fa-2x"></i>
+                                    <p>+ 01 234 567 89</p>
+                                </li>
+
+                                <li><i className="fas fa-envelope mt-4 fa-2x"></i>
+                                    <p>contact@hotelhome.com</p>
+                                </li>
+                            </ul>
+                        </div>
+                    
+
+                    </div>
+
+                </section>
             </div>
             
         )

@@ -5,7 +5,7 @@ function Carousel() {
     return (
         <div className="top-content">
 
-            <div id="carouselExampleIndicators3" className="carousel slide min-vh-100 d-flex flex-column justify-content-center" data-ride="carousel">
+            <div id="carouselExampleIndicators3" className="carousel slide carousel-fade min-vh-100 d-flex flex-column justify-content-center" data-ride="carousel">
                 <h2 className="display-4 text-center">Our business</h2>
                 <ol className="carousel-indicators">
                     <li data-target="#carouselExampleIndicators3" data-slide-to="0" className="active"></li>
@@ -14,8 +14,8 @@ function Carousel() {
                 </ol>
                 <div className='container'>
                     <div className="carousel-inner">
-                        <div className="carousel-item active justify-content-center">
-                            <div className="row align-items-center">
+                        <div className="carousel-item active">
+                            <div className="row">
                                     <div className="col-lg-7 order-lg-2">
                                         <div className="p-5">
                                             <img className="img-fluid rounded-square" src="/images/hotelind1.jpeg" alt=""></img>
@@ -24,13 +24,13 @@ function Carousel() {
                                     <div className="col-lg-5 order-lg-1">
                                         <div className="p-5">
                                             <h2 className="display-4">Hotel industry</h2>
-                                            <p>Furniture with quality and elegance for hotells and other public spaces. We have experience to cooperate with the largest hotell chains in Scandinavia. We can design even the most challencing premises according to the customer’s wishes. We ar cooperating with a talented designers that can build exactly what you want. Our customers tell that cooperation with HotelHome is smooth, flexible and efficient</p>
+                                            <p>Furniture with quality and elegance for hotells and other public spaces. We have experience to cooperate with the largest hotell chains in Scandinavia. We can design even the most challencing premises according to the customer’s wishes. We ar cooperating with a talented designers that can build exactly what you want.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         <div className="carousel-item">
-                            <div className="row align-items-center">
+                            <div className="row ">
                                     <div className="col-lg-7 order-lg-2">
                                         <div className="p-5">
                                             <img className="img-fluid rounded-square" src="/images/turnkey.jpeg" alt=""></img>
@@ -46,7 +46,7 @@ function Carousel() {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <div className="row align-items-center">
+                            <div className="row">
                                     <div className="col-lg-7 order-lg-2">
                                         <div className="p-5">
                                             <img className="img-fluid rounded-square" src="/images/project1.jpeg"></img>
