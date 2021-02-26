@@ -1,111 +1,108 @@
 import React, { PureComponent } from 'react'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export class Footer extends PureComponent {
     render() {
         return (
-            <div className="container min-vh-100">
-                <p>
-
-                </p>
-                <p>
-
-                </p>
-                <p>
-
-                </p>
-                <p>
-
-                </p>
-                <p>
-                    
-                </p>
-                <section className="mb-4 d-flex flex-column h-100 align-items-center justify-content-center" id='contact'>
-
-                
-                    <h2 className="h1-responsive font-weight-bold text-center my-4 justify-content-center">Contact us</h2>
-                    
-                    <p className="text-center w-responsive mx-auto mb-5">Can we help you? Please do not hesitate to contact us directly.</p>
-
-                    <div className="row">
-
-                    
-                        <div className="col-md-9 mb-md-0 mb-5">
-                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                            
-                                <div className="row">
-
+            <div>
+                <div className="container-fluid">
+                    <div className="row justify-content-center">
+                        <div className="col-120 col-md-11">
+                            <div className="card">
+                                <div className="row justify-content-center">
                                     
-                                    <div className="col-md-6">
-                                        <div className="md-form mb-0">
-                                            <input type="text" id="name" name="name" className="form-control"></input>
-                                            <label for="name" className="">Your name</label>
+                                    <div className="col-md-8">
+                                        <div className="row">
+                                            <div className="col-md-6">
+                                                <div className="box">
+                                                    <h4>Want to create something together?</h4> <a href="#">
+                                                        <p>Get in touch</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div className="col-md-6">
+                                                <div className="box">
+                                                    <p className="mb-0">Moll Helsinki office</p>
+                                                    <h5>Annankatu 12, 2krs.<br />FIN-00120 Helsinki</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="row">
+                                            <div className="col-md-6">
+                                                <div className="box">
+                                                    <h4>Help us make cool things!</h4> <a href="#">
+                                                        <p>Check our open positions</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div className="col-md-6 pb-5">
+                                                <div className="box">
+                                                    <p className="mb-0">Cześć! Warsaw office</p>
+                                                    <h5>Plac Bankowy 2<br />POL-00-095 Warsaw</h5>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                
-                                    <div className="col-md-6">
-                                        <div className="md-form mb-0">
-                                            <input type="text" id="email" name="email" className="form-control"></input>
-                                            <label for="email" className="">Your email</label>
+                                    <div className="col-md-4">
+                                        <div>
+                                            
+                                            <h4 className="form-head">Keep up with news from us</h4>
+                                            <form className="form-control">
+                                                <div className="form-group">
+                                                    <div className="col-12 get-input"> <input id="e-mail" type="text" placeholder="first.last@gmail.com" name="email" className="form-control input-box rm-border" onfocus="this.placeholder = ''" onblur="this.placeholder = 'first.last@gmail.com'"></input> </div>
+                                                </div>
+                                                <div className="form-group">
+                                                    <div className="col-12 get-input">
+                                                        <div className="custom-control custom-checkbox custom-control-inline">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="form-group">
+                                                    <div className="col-md-12 px-4 py-2 get-input pb-5 mb-5"> <button type="submit" className="btn btn-submit rm-border">YES PLEASE</button> </div>
+                                                </div>
+                                            </form>
                                         </div>
                                     </div>
-                                
-
                                 </div>
-                            
                                 <div className="row">
-                                    <div className="col-md-12">
-                                        <div className="md-form mb-0">
-                                            <input type="text" id="subject" name="subject" className="form-control"></input>
-                                            <label for="subject" className="">Subject</label>
-                                        </div>
+                                    <div className="col-md-2">
+                                        <div className="row justify-content-center justify-content-md-start"> <img src="https://i.imgur.com/wTcBfAU.png" width="50px" height="50px"></img> </div>
                                     </div>
-                                </div>
-                            
-                                <div className="row">
-
-                                
-                                    <div className="col-md-12">
-
-                                        <div className="md-form">
-                                            <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea"></textarea>
-                                            <label for="message">Your message</label>
-                                        </div>
-
+                                    <div className="col-md-7 d-flex justify-content-center mb-3">
+                                        <div className="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a href="#">About</a> </div>
+                                        <div className="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a href="#">Work</a> </div>
+                                        <div className="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a href="#">Blog</a> </div>
+                                        <div className="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a href="#">Careers</a> </div>
+                                        <div className="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a href="#">Contact</a> </div>
                                     </div>
+                                    <div className="col-md-3 justify-content-center d-flex"> <a href="#">
+                                            <div className="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                                                <div className="fa fa-facebook"></div>
+                                            </div>
+                                        </a> <a href="#">
+                                            <div className="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                                                <div className="fa fa-twitter"></div>
+                                            </div>
+                                        </a> <a href="#">
+                                            <div className="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                                                <div className="fa fa-instagram"></div>
+                                            </div>
+                                        </a> <a href="#">
+                                            <div className="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                                                <div className="fa fa-linkedin"></div>
+                                            </div>
+                                        </a> <a href="#">
+                                            <div className="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                                                <div className="fa fa-google-plus"></div>
+                                            </div>
+                                        </a> </div>
                                 </div>
-                            
-
-                            </form>
-
-                            <div className="text-center text-md-left">
-                                <a className="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
                             </div>
-                            <div className="status"></div>
                         </div>
-                        <div className="col-md-3 text-center">
-                            <ul className="list-unstyled mb-0">
-                                <li><i className="fas fa-map-marker-alt fa-2x"></i>
-                                    <p>Stoperigaten 7</p>
-                                    <p>3040 Drammen, Norway</p>
-                                </li>
-
-                                <li><i className="fas fa-phone mt-4 fa-2x"></i>
-                                    <p>(+47) 948 47 654</p>
-                                </li>
-
-                                <li><i className="fas fa-envelope mt-4 fa-2x"></i>
-                                    <p>martin@hotelhome.com</p>
-                                </li>
-                            </ul>
-                        </div>
-                    
-
                     </div>
-
-                </section>
+                </div>
             </div>
-            
         )
     }
 }

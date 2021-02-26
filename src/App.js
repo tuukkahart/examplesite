@@ -23,7 +23,6 @@ function App() {
       <Navbar />
       <Header />
       <Cont />
-      <Footer />  
     </div>
   );
 }

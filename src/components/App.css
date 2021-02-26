@@ -123,7 +123,7 @@ nav a.nav-link {
 
 
 .mask1{
-  background-color: rgba(0, 0, 0, 0.486);
+  background-color: rgba(0, 0, 0, 0.63);
 }
 .mask2{
   background-color: rgba(0, 0, 0, 0);
@@ -135,11 +135,3 @@ nav a.nav-link {
 
 
 /**********FOOTER***********/
-.container-fluid {
-  overflow: hidden;
-  margin-top: 250px;
-  background: #262626b9;
-  color: #242424 !important;
-  margin-bottom: 0;
-  padding-bottom: 0
-}
