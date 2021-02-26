@@ -16,7 +16,7 @@ function Slider2() {
                     <div className="carousel-item caro2">
                         <div className="d-flex flex-column h-100 align-items-center justify-content-center mask">
                             <div className="container">
-                                <h1 className="text-light">Turnkey</h1>
+                                <h1 className="text-light">Turn key</h1>
                                 <p className="text-light">In collobration with our largest customer Forenom, we have developed a concept that customer can buy ready hotellroom or apartment as turnkey. Service includes furniture, logistic and assembling. Cost-effective easiness for hotels, apartments, cottages, librarys... you name it</p>
                             </div>
                         </div>

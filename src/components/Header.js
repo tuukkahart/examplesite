@@ -9,7 +9,6 @@ const Header = (props) => {
             <div class="header min-vh-100 text-center d-flex flex-column justify-content-center" id="header">
                 <h1 class="display-4">Feels like hotel</h1>
                 <h1 class="display-5">Feels like home</h1>
-                
             </div>
             
         </div>
