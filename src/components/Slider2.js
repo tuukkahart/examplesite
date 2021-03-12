@@ -3,7 +3,7 @@ import React from 'react'
 function Slider2() {
     return (
         <div>
-            <div id='carouselExampleControls' className="carousel slide carousel-fade" data-ride="carousel">
+            <div id='carouselExampleControls' className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner text-center">
                     <div className="carousel-item active caro1">
                         <div className="d-flex flex-column h-100 align-items-center justify-content-center mask">
