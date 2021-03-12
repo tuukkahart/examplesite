@@ -36,7 +36,7 @@ function Caroref() {
                                 <div className="row">
                                     <div className="col-lg-7 order-lg-2">
                                         <div className="p-5">
-                                            <img className="img rounded-square" src="images/Norge.jpg" width="600" height="400" alt="Oslofjörd Convention Center"></img>
+                                            <img className="img rounded-square" src="images/Norge.jpg" width="300" height="200" alt="Oslofjörd Convention Center"></img>
                                         </div>
                                     </div>
                                     <div className="col-lg-5 order-lg-1">
@@ -56,7 +56,7 @@ function Caroref() {
                                 <div className="row">
                                     <div className="col-lg-7 order-lg-2">
                                         <div className="p-5">
-                                            <img className="img rounded-square" src="images/MalmoArena.jpeg" width="500" height="300" alt=""></img>
+                                            <img className="img rounded-square" src="images/MalmoArena.jpeg" alt=""></img>
                                         </div>
                                     </div>
                                     <div className="col-lg-5 order-lg-1">
