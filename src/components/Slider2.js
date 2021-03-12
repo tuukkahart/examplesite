@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react"
 
 function Slider2() {
     return (
         <div>
-            <div id='carouselExampleControls' className="carousel slide" data-ride="carousel">
+            <div id="carouselExampleControls6" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner text-center">
                     <div className="carousel-item active caro1">
                         <div className="d-flex flex-column h-100 align-items-center justify-content-center mask">
                             <div className="container">
-                                <h1 className='text-light text-center'>Hotel</h1>
+                                <h1 className="text-light">Hotel</h1>
                                 <p className="text-light">Furniture with quality and elegance for hotells and other public spaces. We have experience to cooperate with the largest hotell chains in Scandinavia. We can design even the most challencing premises according to the customer’s wishes. We ar cooperating with a talented designers that can build exactly what you want.</p>
                             </div>
                         </div>
@@ -32,11 +32,11 @@ function Slider2() {
                     
                 </div>
             
-            <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <a className="carousel-control-prev" href="#carouselExampleControls6" role="button" data-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="sr-only">Previous</span>
                 </a>
-                <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <a className="carousel-control-next" href="#carouselExampleControls6" role="button" data-slide="next">
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="sr-only">Next</span>
                 </a>

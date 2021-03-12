@@ -1,8 +1,4 @@
 import React, { PureComponent } from 'react'
-import Carousel from './Carousel'
-import CarouselProject from './CarouselProject'
-import CarouselBusiness from './CarouselBusiness'
-import Slider from './Slider'
 import Slider2 from './Slider2'
 import Caronew from './Caronew'
 import Caroref from './Caroref'
@@ -52,7 +48,7 @@ function cont(){
                                           <p>Jump aboard, the journey has begun.</p>
                                           <p>Martin Carlsson, Owner</p>
 
-                                          <h9>Take contact:</h9>
+                                          <h1>Take contact:</h1>
                                           
                                           <p>Email: martin@hotelhome.com</p>
                                           <p>Phone: (+47) 948 47 654</p>
