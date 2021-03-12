@@ -15,14 +15,14 @@ function cont(){
             <div>
                 <div>
                     
-                    <div data-aos="fade-right" id="business">
+                    <div id="business">
                         <div>
                             <Slider2 />
                         </div>
                     </div>
 
                     
-                    <div data-aos="fade-right" id="products">
+                    <div id="products">
                         
                         <div>
                             <Caronew />
@@ -31,7 +31,7 @@ function cont(){
                     </div>
                     
                     
-                    <div data-aos="fade-right" id="projects">
+                    <div id="projects">
                         <div>
                             <Caroref />
                         </div>
@@ -47,12 +47,15 @@ function cont(){
                                 </div>
                                 <div className="col-lg-7 order-lg-1">
                                     <div className="p-5">
-                                      <p>At first, there was a man and an idea of allowing for a quality sleeping experience for everyone. Every night should feel like hotel and every day elsewhere should feel like home. Together with customers (the largest hotel operators in Scandinavia), carefully selected factories and talented Nordic designers we made it. The company HotelHome was born.</p>
+                                      <p>At first, there was a man with an idea of allowing for a quality sleeping experience for everyone. Every night should feel like hotel and every day elsewhere should feel like home. Together with customers (the largest hotel operators in Scandinavia), carefully selected factories and talented Nordic designers we made it. The company HotelHome was born.</p>
 
                                           <p>Jump aboard, the journey has begun.</p>
+                                          <p>Martin Carlsson, Owner</p>
 
-                                          <p>Take contact,</p>
-                                          <p>Martin Carlsson, CEO</p>
+                                          <h9>Take contact:</h9>
+                                          
+                                          <p>Email: martin@hotelhome.com</p>
+                                          <p>Phone: (+47) 948 47 654</p>
                                     
                                     </div>
                                 </div>

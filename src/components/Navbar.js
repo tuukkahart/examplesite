@@ -26,10 +26,7 @@ const Navbar = () => {
                 <a className="nav-link"><Link className="Link" to="projects" spy={true} smooth={true}>References</Link></a>
             </li>
             <li className="nav-item">
-                <a className="nav-link"><Link className="Link" to="about1" spy={true} smooth={true}>Story</Link></a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="https://hotelnhome.myshopify.com">Shop</a>
+                <a className="nav-link"><Link className="Link" to="about1" spy={true} smooth={true}>Story/Contact</Link></a>
             </li>
             
             </ul>

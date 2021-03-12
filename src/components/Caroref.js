@@ -36,7 +36,27 @@ function Caroref() {
                                 <div className="row">
                                     <div className="col-lg-7 order-lg-2">
                                         <div className="p-5">
-                                            <img className="img rounded-square" src="" alt=""></img>
+                                            <img className="img rounded-square" src="images/Norge.jpg" width="600" height="400" alt="Oslofjörd Convention Center"></img>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-5 order-lg-1">
+                                        <div className="p-5">
+                                            <h2 className="display-5">Oslofjord Convention center </h2>
+                                            <p>Melsomvik, Norway</p>
+                                            <p>Welcome to one of European´s largest conference destinations. Everything is on site here, from the Vestfold coast, a golf course and a coastal path. A place for friendship, fellowship, great thoughts, and big dreams</p>
+                                        </div>
+                                    </div>
+                                </div>             
+                            </div>
+                        </div>
+                    </div>
+                    <div className="carousel-item">
+                        <div className="d-flex flex-column h-100 align-items-center justify-content-center">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-lg-7 order-lg-2">
+                                        <div className="p-5">
+                                            <img className="img rounded-square" src="images/MalmoArena.jpeg" width="500" height="300" alt=""></img>
                                         </div>
                                     </div>
                                     <div className="col-lg-5 order-lg-1">

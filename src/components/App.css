@@ -15,9 +15,9 @@ body {
     font-size: large;
    }
    
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 10;
     text-transform: uppercase;
    }
 
@@ -79,11 +79,12 @@ nav a.nav-link {
 /**********HEADER***************/
 
 .header{
-  background-image: url(bed.jpeg)!important;
+  background-image: url(hotelbilde.jpg)!important;
   background-position: center;
   background-size:cover;
   
 }
+
 
 /*****************CONT*****************/
 
@@ -97,10 +98,10 @@ nav a.nav-link {
   background-position: center center;
 }
 .caro1 {
-  background-image: url(Hotelind.jpeg);
+  background-image: url(bed.jpeg);
 }
 .caro2 {
-  background-image: url(turnkey.jpeg);
+  background-image: url(Hotelind.jpeg);
 }
 .caro3 {
   background-image: url(project1.jpeg);
@@ -110,7 +111,7 @@ nav a.nav-link {
   color: white;
 }
 .mask{
-  background-color: rgba(0, 0, 0, 0.322);
+  background-color: rgba(0, 0, 0, 0.61);
 }
 
 .mask1bg{
