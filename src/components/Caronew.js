@@ -21,7 +21,7 @@ function Caronew() {
                                     </div>
                                     <div className="col-lg-4 order-lg-1">
                                         <div className="p-5 d-flex flex-column h-100 align-items-center justify-content-center">
-                                            <h2 className="display-4">Beds</h2>
+                                            <h2 className="display-4">Bedss</h2>
                                             <p>One of our biggest passion is beds. You spend 6-10 hours per day in a bed. It really matters what the comfort and quality is. With HotelHome, sleeping will be the best time of your life.</p>
                                             
                                         </div>
