@@ -7,9 +7,6 @@ function Caroref() {
                 <div className="carousel-inner text-center text-light mask1">
 
 
-
-
-
                     <div className="carousel-item active">
                         <div className="d-flex flex-column h-100 align-items-center justify-content-center">
                             <div className="container">
