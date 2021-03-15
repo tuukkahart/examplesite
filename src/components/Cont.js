@@ -50,7 +50,7 @@ function cont(){
 
                                           <h1>Take contact:</h1>
                                           
-                                          <p>Email: martin@hotelhome.com</p>
+                                          <p>Email: martin@hotelnhome.com</p>
                                           <p>Phone: (+47) 948 47 654</p>
                                     
                                     </div>
